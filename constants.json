@@ -1,0 +1,24 @@
+{
+  "jsVersion": "1.0.0",
+  "testAdUnitID": "ca-app-pub-3940256099942544/6300978111",
+  "heightBreakPoints": {
+    "xxSmall": 500,
+    "xSmall": 600,
+    "small": 700,
+    "large": 1024,
+    "xLarge": 1366
+  },
+  "ios": {
+    "adUnitID": "{{AD_UNIT_ID_IOS}}"
+  },
+  "android": {
+    "adUnitID": "{{AD_UNIT_ID_ANDROID}}"
+  },
+  "colors": {
+    "background": {
+      "correct": "green",
+      "incorrect": "red"
+    },
+    "block": "beige"
+  }
+}
