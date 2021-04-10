@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "scrabble-word-checker",
+    "name": "Scrabble Word Checker",
     "slug": "scrabble-word-checker",
     "version": "1.0.0",
+    "privacy": "public",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,20 +14,24 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "{{AD_UNIT_ID_IOS}}"
+      },
+      "appStoreUrl": "https://apps.apple.com/us/app/scrabble-word-checker/id1562516118",
+      "bundleIdentifier": "com.asenousy.scrabble-word-checker"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "permissions": [],
+      "softwareKeyboardLayoutMode": "pan",
+      "config": {
+        "googleMobileAdsAppId": "{{AD_UNIT_ID_ANDROID}}"
+      },
+      "package": "com.asenousy.scrabblewordchecker",
+      "versionCode": 1,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.asenousy.scrabblewordchecker"
     }
   }
 }
