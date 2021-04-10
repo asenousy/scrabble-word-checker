@@ -1,7 +1,6 @@
 {
   "appName": "scrabble-word-checker",
   "jsVersion": "1.0.0",
-  "testAdUnitID": "ca-app-pub-3940256099942544/6300978111",
   "heightBreakPoints": {
     "xxSmall": 500,
     "xSmall": 600,
@@ -9,11 +8,10 @@
     "large": 1024,
     "xLarge": 1366
   },
-  "ios": {
-    "adUnitID": "{{AD_UNIT_ID_IOS}}"
-  },
-  "android": {
-    "adUnitID": "{{AD_UNIT_ID_ANDROID}}"
+  "testAdUnitID": "ca-app-pub-3940256099942544/6300978111",
+  "prodAdUnitID": {
+    "ios": "{{AD_UNIT_ID_IOS}}",
+    "android": "{{AD_UNIT_ID_ANDROID}}"
   },
   "colors": {
     "background": "darkgreen",
