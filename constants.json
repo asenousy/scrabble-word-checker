@@ -1,4 +1,5 @@
 {
+  "appName": "scrabble-word-checker",
   "jsVersion": "1.0.0",
   "testAdUnitID": "ca-app-pub-3940256099942544/6300978111",
   "heightBreakPoints": {
@@ -15,10 +16,14 @@
     "adUnitID": "{{AD_UNIT_ID_ANDROID}}"
   },
   "colors": {
-    "background": {
-      "correct": "green",
-      "incorrect": "red"
-    },
-    "block": "beige"
+    "background": "darkgreen",
+    "error": "indianred",
+    "block": "beige",
+    "feedback": {
+      "icon": "white",
+      "modal": "white",
+      "button": "lightgrey",
+      "shadow": "black"
+    }
   }
 }

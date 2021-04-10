@@ -1,16 +1,13 @@
 import React from "react";
 import { StyleSheet, View, Text } from "react-native";
 import { colors } from "../constants.json";
+import responsive from "../helpers/responsive";
 
 const points: any = {
   C: "3",
-  O: "1",
-  R: "1",
-  E: "1",
-  T: "1",
   W: "4",
-  N: "1",
   G: "2",
+  Y: "4",
 };
 
 type Props = {
@@ -35,27 +32,33 @@ type BlockProps = {
 const Block = ({ value }: BlockProps) => (
   <View style={styles.block}>
     <Text style={styles.letter}>{value}</Text>
-    <Text style={styles.point}>{points[value]}</Text>
+    <Text style={styles.point}>{points[value] || 1}</Text>
   </View>
 );
 
-const styles = StyleSheet.create({
-  container: { flexDirection: "row", margin: 10 },
-  block: {
-    backgroundColor: colors.block,
-    borderRadius: 5,
-    padding: 10,
-    margin: 3,
-  },
-  letter: {
-    fontSize: 15,
-  },
-  point: {
-    position: "absolute",
-    bottom: 2,
-    right: 3,
-    fontSize: 10,
-  },
-});
+const styles = StyleSheet.create(
+  responsive({
+    container: {
+      flexDirection: "row",
+      margin: 5,
+    },
+    block: {
+      backgroundColor: colors.block,
+      borderRadius: 5,
+      padding: 10,
+      margin: 3,
+    },
+    letter: {
+      fontSize: 15,
+      fontWeight: "bold",
+    },
+    point: {
+      position: "absolute",
+      bottom: 2,
+      right: 3,
+      fontSize: 10,
+    },
+  })
+);
 
 export default Blocks;
