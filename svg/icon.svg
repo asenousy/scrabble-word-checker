@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="614.4" height="614.4" viewBox="0, 0, 614.4, 614.4">
+  <g id="Background">
+    <rect x="0" y="0" width="614.4" height="614.4" fill="#CDBD9D"/>
+  </g>
+  <g id="Layer_1">
+    <path d="M307.2,614.73 C137.356,614.73 -0.33,477.044 -0.33,307.2 C-0.33,137.356 137.356,-0.33 307.2,-0.33 C477.044,-0.33 614.73,137.356 614.73,307.2 C614.73,477.044 477.044,614.73 307.2,614.73 z" fill="#CDBD9D"/>
+  </g>
+  <g id="document">
+    <g>
+      <path d="M229.928,455.996 L289.751,557.329 L248.416,581.731 L188.594,480.398 L229.928,455.996 z" fill="#016400"/>
+      <path d="M223.738,540.768 L480.934,384.947 L505.806,426 L248.61,581.822 L223.738,540.768 z" fill="#016400"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 307.2, 248.17)">
+      <tspan x="-137.52" y="-100.5" font-family="HelveticaNeue-Bold" font-size="90" fill="#016400">Check</tspan>
+      <tspan x="-30.825" y="10.5" font-family="HelveticaNeue-Bold" font-size="90" fill="#016400">A</tspan>
+      <tspan x="-111.6" y="121.5" font-family="HelveticaNeue-Bold" font-size="90" fill="#016400">Word</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 576.9, 567)">
+      <tspan x="-13.9" y="18.5" font-family="HelveticaNeue-Bold" font-size="50" fill="#000000">1</tspan>
+    </text>
+  </g>
+</svg>
