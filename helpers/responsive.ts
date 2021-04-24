@@ -3,7 +3,7 @@ import { heightBreakPoints } from "../constants.json";
 
 const height = Dimensions.get("screen").height;
 
-const scale = height / heightBreakPoints.large;
+const scale = height / heightBreakPoints.small;
 
 const responsive = (oldStyle: any) => {
   if (typeof oldStyle === "number") return scale * oldStyle;

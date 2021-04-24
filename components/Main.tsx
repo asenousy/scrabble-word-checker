@@ -67,6 +67,7 @@ const styles = StyleSheet.create(
       justifyContent: "center",
     },
     layer: {
+      alignItems: "center",
       borderRadius: 20,
     },
   })

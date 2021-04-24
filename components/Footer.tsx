@@ -13,7 +13,7 @@ const Footer = (props: Props) => (
     <Pressable style={styles.icon} onPress={props.onFeedback}>
       <AntDesign
         name="form"
-        size={responsive(40)}
+        size={responsive(35)}
         color={colors.feedback.icon}
       />
     </Pressable>
