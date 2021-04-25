@@ -40,7 +40,6 @@ export default function App() {
       <StatusBar style="auto" />
       <View style={styles.content}>
         <View style={styles.banner}>
-          <View style={{ width: 100, height: 100 }} />
           <AdMobBanner
             bannerSize={
               height > heightBreakPoints.small &&
