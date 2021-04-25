@@ -29,6 +29,7 @@ const Main = () => {
             onChangeText={setInput}
             onEndEditing={() => setWord(input.toLowerCase())}
             clearButtonMode="always"
+            keyboardType="visible-password"
             autoCorrect={false}
           />
           {word ? <MsgResult status={!incorrect} /> : <Filler />}
