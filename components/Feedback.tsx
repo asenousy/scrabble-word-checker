@@ -64,7 +64,7 @@ const styles = StyleSheet.create(
       width: "100%",
       height: "100%",
       backgroundColor: colors.feedback.shadow,
-      opacity: 0.8,
+      opacity: 0.5,
     },
     modal: {
       borderRadius: 10,
