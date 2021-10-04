@@ -20,9 +20,14 @@ import {
 } from "./constants.json";
 import responsive from "./helpers/responsive";
 import storeReview from "./helpers/storeReview";
+import * as ScreenOrientation from "expo-screen-orientation";
 
 const height = Dimensions.get("screen").height;
 const AD_UNIT_ID = __DEV__ ? testAdUnitID : (prodAdUnitID as any)[Platform.OS];
+
+if (height >= heightBreakPoints.large) {
+  ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.DEFAULT);
+}
 
 export default function App() {
   const appState = useState(AppState.currentState);
