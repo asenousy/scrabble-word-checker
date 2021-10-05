@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v1
       - uses: expo/expo-github-action@v6
         with:
-          expo-token: ${{ secrets.EXPO_TOKEN }}
+          token: ${{ secrets.EXPO_TOKEN }}
       - run: npm ci
       - run: npm test
       - run: sed -i 's/{{AD_UNIT_ID_IOS}}/${{ secrets.AD_UNIT_ID_IOS_OUTSIDE }}/g' app.json
