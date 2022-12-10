@@ -1,6 +1,6 @@
 {
-  "appName": "scrabble-word-checker",
-  "jsVersion": "1.0.1",
+  "appName": "word-checker",
+  "jsVersion": "2.0.0",
   "heightBreakPoints": {
     "xxSmall": 500,
     "xSmall": 600,
