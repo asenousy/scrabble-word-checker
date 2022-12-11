@@ -1,6 +1,6 @@
 {
   "appName": "word-checker",
-  "jsVersion": "2.0.0",
+  "jsVersion": "2.0.1",
   "heightBreakPoints": {
     "xxSmall": 500,
     "xSmall": 600,
